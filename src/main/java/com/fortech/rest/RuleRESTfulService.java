@@ -33,14 +33,14 @@ public class RuleRESTfulService {
 	
 	@GET
 	@Path("/get")
-	public String getResponse(){
-		return marketRuleService.printCeva();
+	public Response getResponse(){
+		return Response.status(200).entity(marketRuleService.printCeva()).build();
 	}
 	
 	@GET
 	@Path("/as")
-	public String asaceva(){
-		return "asfasdas";
+	public String getResponse1(){
+		return "sadfasdfsad";
 	}
 	
 	@GET

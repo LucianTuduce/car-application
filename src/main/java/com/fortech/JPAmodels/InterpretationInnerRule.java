@@ -29,8 +29,7 @@ public class InterpretationInnerRule implements Serializable {
 
 	//bi-directional many-to-one association to InterpretationRule
 	@ManyToOne
-	@JoinColumns({
-		})
+	@JoinColumn(name="\"id\"")
 	private InterpretationRule interpretationRule;
 
 	public InterpretationInnerRule() {
