@@ -29,7 +29,8 @@ public class TargetVehicle implements Serializable {
 
 	//bi-directional many-to-one association to InterpretationRule
 	@ManyToOne
-	@JoinColumn(name="\"id\"")
+	@JoinColumns({
+		})
 	private InterpretationRule interpretationRule;
 
 	public TargetVehicle() {

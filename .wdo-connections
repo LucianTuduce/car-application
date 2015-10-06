@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="New DB2 for Linux, UNIX, and Windows">
+    <development xsi:type="connections:rsc-live-connection" id="New DB2 for Linux, UNIX, and Windows_dev" name="New DB2 for Linux, UNIX, and Windows"/>
+    <runtime xsi:type="connections:datasource-connection" auto-deploy="true" class-location="D:\DB2Settings\db2jcc.jar;D:\DB2Settings\db2jcc4.jar" id="New DB2 for Linux, UNIX, and Windows_runtime" classname="com.ibm.db2.jcc.DB2ConnectionPoolDataSource" database-name="SAMPLE" jndi-name="jdbc/New DB2 for Linux, UNIX, and Windows" port-number="50000" resource-reference-name="New DB2 for Linux, UNIX, and Windows" server-name="localhost" sql-vendor-type="-1" userid="lucian.tuduce"/>
+  </connection>
+</connections:connections>
